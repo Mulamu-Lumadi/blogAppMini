@@ -34,3 +34,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## About App
+
+Trying and failing to send post information (post which had edit button pressed) to the form component via the '/edit' route page.js. Tried routing solutions to no avail (useRouter and Link query parameters), cannot use global state management given disuse of state variables. Tried exporting functions from the '/' page.js, return undefined results.
